@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <ImageView
+        android:id="@+id/imageback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/appback"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageultra"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/app22" />
+    <RelativeLayout
+        android:id="@+id/textultra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageultra"
+        android:background="#FFFAF1">
+    <TextView
+        android:id="@+id/textultra1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="KonniKart: "
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#6F3F35"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textultra1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:id="@+id/image78"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:padding="@dimen/app_cust"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/lastfm" />
+
+            <TextView
+                android:id="@+id/textultra2"
+                android:layout_width="357dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="@dimen/app_cust"
+                android:text="Konni,Kerala-India"
+                android:textColor="#6F3F35"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/texthello"
+        android:background="@color/FontDark"
+        android:layout_below="@id/textultra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="KonniKart: Perfect Shopping Destination"
+        android:textColor="@color/FontLight"
+        android:padding="@dimen/app_cust"/>
+    <ImageView
+        android:id="@+id/image11"
+        android:layout_below="@id/texthello"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/app11" />
+    <TextView
+        android:id="@+id/texthello2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/FontDark"
+        android:layout_below="@id/image11"
+        android:textSize="20dp"
+        android:padding="@dimen/app_cust"
+        android:text="Contact: +91 8089 750 759\nEmail: KonniKart@gmail.com
+        \nWebsite: https://www.KonniKart.com"
+        android:textColor="@color/FontLight"/>
+    <ImageView
+        android:id="@+id/image22"
+        android:layout_below="@id/texthello2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/app22"
+        />
+    <ImageView
+        android:id="@+id/image33"
+        android:layout_below="@id/image22"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/app33"
+        />
+</RelativeLayout>
+</ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>
